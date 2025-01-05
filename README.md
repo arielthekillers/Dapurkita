@@ -5,7 +5,8 @@ Dapurkita adalah aplikasi management berita salah satu media online. Dapurkita d
 -   Php 8.2.
 -   Laravel 11.
 -   Livewire 3.5.
--   Filament 3.
+-   Filament 3.2.
+-   Filament Shield 3.3.4.
 
 ## Security Vulnerabilities
 
