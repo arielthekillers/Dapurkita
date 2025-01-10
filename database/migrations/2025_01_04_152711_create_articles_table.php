@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('image');
             $table->foreignId('category_id')->constrained('categories')->cascadeOnDelete();
             $table->enum('status', ['Published', 'Draft']);
+            $table->boolean('is_futured')->default(false); // For front page display
             $table->date('published_at');
             $table->timestamps();
             $table->softDeletes('deleted_at', precision: 0);
