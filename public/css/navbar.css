@@ -1,0 +1,131 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #1e3a8a; /* Dark Blue */
+    color: white;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f97316; /* Orange */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .logo:hover {
+    color: #fb923c; /* Lighter Orange */
+}
+
+.navbar .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    position: relative;
+    margin-left: 1.5rem;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .menu a:hover {
+    color: #fb923c; /* Orange */
+}
+
+/* Dropdown Menu */
+.navbar .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2563eb; /* Blue */
+    color: white;
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.navbar .dropdown-menu li {
+    padding: 0.5rem 1rem;
+}
+
+.navbar .dropdown-menu a {
+    color: white;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #1d4ed8; /* Darker Blue */
+}
+
+/* Mobile Menu */
+.navbar .mobile-menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .mobile-menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #1e3a8a; /* Dark Blue */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .menu.active {
+        display: flex;
+    }
+
+    .navbar .menu li {
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .navbar .mobile-menu-toggle {
+        display: flex;
+    }
+}
