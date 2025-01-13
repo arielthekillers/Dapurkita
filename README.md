@@ -1,6 +1,6 @@
 # Dapurkita
 
-Dapurkita is a news management application for an online media platform. This application is designed to simplify news content management with advanced and modern features.
+Dapurkita is a news management system for an online media platform. This application is designed to simplify news content management with advanced and modern features.
 
 ## Technologies Used
 
