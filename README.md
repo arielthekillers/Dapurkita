@@ -6,13 +6,13 @@ Dapurkita is a news management system for an online media platform. This applica
 
 Dapurkita is developed using the following technologies:
 
--   [PHP 8.2](https://www.php.net/releases/8.2/)
--   [Laravel 11](https://laravel.com/)
--   [Livewire 3.5](https://livewire.laravel.com/)
--   [Filament 3.2](https://filamentphp.com/)
--   [Filament Shield 3.3.4](https://filamentphp.com/docs/plugins/shield/)
+-   [PHP v8.2](https://www.php.net/releases/8.2/)
+-   [Laravel v11.3.7](https://laravel.com/)
+-   [Livewire v3.5](https://livewire.laravel.com/)
+-   [Filament v3.2](https://filamentphp.com/)
+-   [Filament Shield v3.3.4](https://filamentphp.com/docs/plugins/shield/)
 -   [NPM](https://www.npmjs.com/)
--   [Vite](https://vitejs.dev/)
+-   [Vite v6.0.7](https://vitejs.dev/)
 
 ## Key Features
 
