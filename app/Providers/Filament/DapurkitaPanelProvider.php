@@ -17,6 +17,7 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Filament\Enums\ThemeMode;
 
 class DapurkitaPanelProvider extends PanelProvider
 {
@@ -24,6 +25,9 @@ class DapurkitaPanelProvider extends PanelProvider
     {
         return $panel
             ->default()
+            ->brandName('Algoritma Kaltim')
+            // ->brandLogo(asset('logo.png'))
+            ->favicon(asset('favicon.ico'))
             ->id('dapurkita')
             ->path('dapurkita')
             ->login()
