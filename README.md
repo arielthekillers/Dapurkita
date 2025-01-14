@@ -11,6 +11,8 @@ Dapurkita is developed using the following technologies:
 -   [Livewire 3.5](https://livewire.laravel.com/)
 -   [Filament 3.2](https://filamentphp.com/)
 -   [Filament Shield 3.3.4](https://filamentphp.com/docs/plugins/shield/)
+-   [NPM](https://www.npmjs.com/)
+-   [Vite](https://vitejs.dev/)
 
 ## Key Features
 
