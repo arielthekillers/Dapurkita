@@ -18,6 +18,7 @@ Dapurkita is developed using the following technologies:
 
 -   **News Management**: Manage news content, including creating, editing, deleting, and archiving news.
 -   **Category Management**: Organize news categories for better structure.
+-   **Tags Management**: Organize news Tags for better structure.
 -   **Statistics**: Monitor news performance and analyze data for decision-making.
 -   **Google Analytics Integration**: Provides direct analytics data from Google Analytics.
 -   **Role-Based Management**: Manage users based on roles and permissions.
